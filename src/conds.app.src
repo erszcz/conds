@@ -1,0 +1,14 @@
+{application, conds,
+ [
+  {description, "Conditional operations on sets of data"},
+  {vsn, "1"},
+  {modules, [
+             conds
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
